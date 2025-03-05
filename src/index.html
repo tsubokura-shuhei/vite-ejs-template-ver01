@@ -1,0 +1,30 @@
+<% title = 'アバウトページ'; description = '説明文'; rootPath = './'; noindex =
+false; %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/pages/index/style.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <%- include('./components/header.ejs') %>
+
+    <h1>Homeページ</h1>
+    <h2>テスト</h2>
+    <h3>テスト</h3>
+    <h4>テスト</h4>
+
+    <% for (let i = 1; i < 6; i++) { %>
+    <div>番号<%= i %></div>
+    <% } %>
+
+    <a href="<%- rootPath + 'about/index.html' %>">Aboutページへ</a>
+    <a href="<%- rootPath + 'about/etc/index.html' %>">etcページへ</a>
+
+    <img src="/assets/img/test.jpg" alt="" />
+    <%- include('./components/footer.ejs') %>
+  </body>
+</html>

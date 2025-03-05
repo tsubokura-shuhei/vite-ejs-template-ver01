@@ -1,0 +1,16 @@
+{
+  "default": {
+    "title": "ページタイトル",
+    "description": "ディスクリプション！",
+    "url": "サイトURL",
+    "ogp_img": "ogp画像",
+    "sitename": "配下ページタイトルの末尾に着けるサイト名（｜株式会社○○など）"
+  },
+  "top": {
+    "sitename": ""
+  },
+  "about": {
+    "title": "アバウト",
+    "url": "https://exsample.com/about/"
+  }
+}
